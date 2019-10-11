@@ -78,7 +78,7 @@ target_link_libraries(${PROJECT_NAME} INTERFACE
         coexist
         console
         core
-        cxx
+        stdc++
         dl_lib
         driver
         esp32
