@@ -45,7 +45,7 @@ target_include_directories(${PROJECT_NAME} PUBLIC
         esp32/
         )
 
-target_link_libraries(${PROJECT_NAME} PRIVATE
+target_link_libraries(${PROJECT_NAME} PUBLIC
         arduino-variant
         esp32-sdk
         )
